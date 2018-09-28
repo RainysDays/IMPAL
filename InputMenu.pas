@@ -1,4 +1,4 @@
-Program RegisterOwnerKaryawan;
+Program InputMenu;
 uses crt;
 
 var
@@ -6,6 +6,7 @@ nama : string;
 harga : integer;
 
 begin
+clrscr;
 writeln('==================');
 writeln('= INPUT MENU =');
 writeln('==================');
