@@ -8,9 +8,9 @@ var
 
 
 begin
-    writeln('==================');
-    writeln('= VIEW MENU =');
-    writeln('==================');
+    writeln('===================');
+    writeln('==== VIEW MENU ====');
+    writeln('===================');
     
     for (i:=1) to n do 
     begin
