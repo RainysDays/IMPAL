@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgEditakun"
+    android:background="@drawable/bgeditakun"
     tools:context=".EditakunpActivity">
 
     <EditText
@@ -38,7 +38,7 @@
         android:id="@+id/btnCancel"
         android:layout_width="105dp"
         android:layout_height="46dp"
-        android:background="@drawable/btnBack"
+        android:background="@drawable/btnback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.267"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +48,7 @@
         android:id="@+id/btnSubmit"
         android:layout_width="105dp"
         android:layout_height="45dp"
-        android:background="@drawable/btnReset"
+        android:background="@drawable/btnreset"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.732"
         app:layout_constraintStart_toStartOf="parent"
