@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Semester 5\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "D:\\Kuliah\\IMPAL\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e054a32cd5a0c51912d4a628ef667c1d\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\58eabfdc90e12f2f8d16a63e1c08ab93\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bdcbd1c8b8a040a5ff26cd90237e8ad6\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\fdfc731ccfb12204595d407e37a5da46\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

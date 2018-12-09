@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Semester 5\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\Kuliah\\IMPAL\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e054a32cd5a0c51912d4a628ef667c1d\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\58eabfdc90e12f2f8d16a63e1c08ab93\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\389072ef5f88a6211615e67350458160\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\a56024c8822548af93a66739538c4920\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

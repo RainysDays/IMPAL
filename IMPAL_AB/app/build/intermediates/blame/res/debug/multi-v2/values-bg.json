@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Semester 5\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "D:\\Kuliah\\IMPAL\\IMPAL\\IMPAL_AB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\e054a32cd5a0c51912d4a628ef667c1d\\res\\values-bg\\values-bg.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,327,432,518,623,744,823,901,984,1098,1207,1307,1421,1527,1635,1795,1894",
-                        "endColumns": "114,106,104,85,104,120,78,77,82,113,108,99,113,105,107,159,98,82",
-                        "endOffsets": "215,322,427,513,618,739,818,896,979,1093,1202,1302,1416,1522,1630,1790,1889,1972"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Wiranata\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bdcbd1c8b8a040a5ff26cd90237e8ad6\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\fdfc731ccfb12204595d407e37a5da46\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1977",
                         "endColumns": "100",
                         "endOffsets": "2073"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Irfan\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\58eabfdc90e12f2f8d16a63e1c08ab93\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,327,432,518,623,744,823,901,984,1098,1207,1307,1421,1527,1635,1795,1894",
+                        "endColumns": "114,106,104,85,104,120,78,77,82,113,108,99,113,105,107,159,98,82",
+                        "endOffsets": "215,322,427,513,618,739,818,896,979,1093,1202,1302,1416,1522,1630,1790,1889,1972"
                     }
                 }
             ]

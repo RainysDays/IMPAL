@@ -17,7 +17,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.wiranata.impal_ab.LoginActivity" />
+        <activity android:name="com.example.wiranata.impal_ab.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.wiranata.impal_ab.RegisteroActivity" />
         <activity android:name="com.example.wiranata.impal_ab.EditakunActivity" />
         <activity android:name="com.example.wiranata.impal_ab.EditakunpActivity" />
@@ -44,11 +50,6 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity android:name="com.example.wiranata.impal_ab.Main2Activity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <provider
