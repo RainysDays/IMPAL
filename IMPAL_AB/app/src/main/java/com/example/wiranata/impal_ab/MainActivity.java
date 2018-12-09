@@ -29,12 +29,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    ListView list;
-    String menumain[] = {"Nasi"};
-    int hargamain[] = {2000};
-    int checkboxmain[] = {R.drawable.check_box};
-    int editmenu[] = {R.drawable.edit};
-    int deletemenu[] = {R.drawable.delete};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +37,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        list =findViewById(R.id.listmain);
-        MyAdapter adapter = new MyAdapter(this, menumain, hargamain, checkboxmain, editmenu, deletemenu);
-        list.setAdapter(adapter);
+
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -123,38 +116,5 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    class MyAdapter extends ArrayAdapter<String>{
-        Context context;
-        String mymenumain[];
-        int myhargamain[];
-        int mycheckboxmain[];
-        int myeditmenu[];
-        int mydeletemenu[];
 
-        MyAdapter(Context c, String[] menumain,int[] hargamain,int[] checkboxmain, int[] editmenu,int[] deletemenu){
-            super(c, R.layout.rowmain);
-            this.mycheckboxmain = checkboxmain;
-            this.mydeletemenu = deletemenu;
-            this.myeditmenu = editmenu;
-            this.myhargamain = hargamain;
-            this.mymenumain = menumain;
-        }
-        @NonNull
-        @Override
-        public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent){
-            LayoutInflater layoutInflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View rowmain = layoutInflater.inflate(R.layout.rowmain, parent,false);
-            CheckBox mycheckboxmain = rowmain.findViewById(R.id.checkboxmain);
-            TextView myhargamain = rowmain.findViewById(R.id.hargamain);
-            TextView mymenumain = rowmain.findViewById(R.id.menumain);
-            Button mydeletemenu = rowmain.findViewById(R.id.deletemenu);
-            Button myeditmenu = rowmain.findViewById(R.id.editmenu);
-            mycheckboxmain.setBackgroundResource(checkboxmain[position]);
-            mydeletemenu.setBackgroundResource(deletemenu[position]);
-            myeditmenu.setBackgroundResource(editmenu[position]);
-            myhargamain.setText(hargamain[position]);
-            mymenumain.setText(menumain[position]);
-            return rowmain;
-        }
-    }
 }

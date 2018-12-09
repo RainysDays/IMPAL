@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisteroActivity" />
         <activity android:name=".EditakunActivity" />
         <activity android:name=".EditakunpActivity" />
@@ -19,7 +19,9 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity
             android:name=".MaineActivity"
             android:label="@string/title_activity_maine"
@@ -28,11 +30,15 @@
             android:name=".Belanja"
             android:label="Belanja"
             android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
         <activity
             android:name=".shopping"
             android:label="@string/title_activity_shopping"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

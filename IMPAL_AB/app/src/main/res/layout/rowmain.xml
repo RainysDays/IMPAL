@@ -8,17 +8,17 @@
     <CheckBox
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:id="@+id/checkboxmain"
+        android:id="@+id/checkbox"
         android:background="@drawable/check_box"
         />
 
     <LinearLayout
-        android:layout_width="207dp"
+        android:layout_width="346dp"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/menumain"
+            android:id="@+id/menu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Menu1"
@@ -27,7 +27,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/hargamain"
+            android:id="@+id/harga"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="2000"
@@ -36,18 +36,6 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <Button
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/edit"
-        android:id="@+id/editmenu"
-        />
-    <Button
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/delete"
-        android:id="@+id/deletemenu"
-        />
 
 
 
